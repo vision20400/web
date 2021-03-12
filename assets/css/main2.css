@@ -1,0 +1,25 @@
+body{
+	border: 5px solid red;
+	background-image: url(../../images/pic11.jpg);
+	background-size: cover
+}
+
+body>*{
+	border: 5px solid green
+}
+
+body>*>*{
+	border: 5px solid blue;
+}
+
+body>*>*>*{
+	border: 5px solid yellow;
+}
+
+body article:first-child img{
+	border-radius: 100%;
+}
+
+body article:last-of-type img{
+	border-radius: 10%;
+}
